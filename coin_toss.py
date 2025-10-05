@@ -14,7 +14,7 @@ import random
 def main():
     def coin_toss():
 
-        print('=' * 5, ' Coin Flipper ', '=' * 5)
+        print('=' * 5, 'Coin Flipper', '=' * 5)
         random_number = random.randint(1,100)
 
         if random_number >= 51:
